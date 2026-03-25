@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Community App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="auth-container">
+    <h2>Welcome</h2>
+
+```
+<input id="email" type="email" placeholder="Email" />
+<input id="password" type="password" placeholder="Password" />
+
+<div class="buttons">
+  <button onclick="signUp()">Sign Up</button>
+  <button onclick="signIn()">Sign In</button>
+  <button onclick="signOut()">Sign Out</button>
+</div>
+
+<p id="message"></p>
+```
+
+  </div>
+
+  <div id="app-container" class="hidden">
+    <h2>Community Feed</h2>
+
+```
+<textarea id="postInput" placeholder="Write something..."></textarea>
+<button onclick="createPost()">Post</button>
+
+<div id="posts"></div>
+```
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
